@@ -8,6 +8,7 @@ black = "==18.9b0"
 
 [packages]
 scrapy = "==1.6.0"
+boto3 = "==1.9.104"
 
 [requires]
 python_version = "3.7"
