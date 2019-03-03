@@ -17,7 +17,7 @@ class OrleansSpider(scrapy.Spider):
     def start_requests(self):
         today = datetime.datetime.now()
 
-        for num_days_in_future in range(0, NUM_DAYS_TO_SCRAPE, 3):
+        for num_days_in_future in range(1, NUM_DAYS_TO_SCRAPE, 3):
             # The API gives results in 3 day windows centered around the
             # requested date.
             date = today + datetime.timedelta(days=num_days_in_future + 1)
