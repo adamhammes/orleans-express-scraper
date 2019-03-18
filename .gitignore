@@ -2,3 +2,8 @@ __pycache__/
 secrets.sh
 *.gz
 
+synced-s3/*.gz
+
+unzipped/*.json
+
+index.json
